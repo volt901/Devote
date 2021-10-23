@@ -23,6 +23,10 @@
 		7DDCB23427247093002BCBCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DDCB23627247093002BCBCC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7DDCB23927247093002BCBCC /* Devote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote.xcdatamodel; sourceTree = "<group>"; };
+		7DDCB24227247314002BCBCC /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		7DDCB24327247314002BCBCC /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+		7DDCB24427247314002BCBCC /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		7DDCB24C272474AF002BCBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,15 @@
 		7DDCB22C27247090002BCBCC /* Devote */ = {
 			isa = PBXGroup;
 			children = (
+				7DDCB24C272474AF002BCBCC /* Info.plist */,
+				7DDCB24A27247455002BCBCC /* Style */,
+				7DDCB2492724743A002BCBCC /* Utility */,
+				7DDCB24827247426002BCBCC /* Extension */,
+				7DDCB246272473B1002BCBCC /* Sound */,
 				7DDCB22D27247090002BCBCC /* DevoteApp.swift */,
-				7DDCB22F27247090002BCBCC /* ContentView.swift */,
+				7DDCB24727247413002BCBCC /* View */,
 				7DDCB23127247093002BCBCC /* Assets.xcassets */,
-				7DDCB23627247093002BCBCC /* Persistence.swift */,
-				7DDCB23827247093002BCBCC /* Devote.xcdatamodeld */,
+				7DDCB24B27247470002BCBCC /* Model */,
 				7DDCB23327247093002BCBCC /* Preview Content */,
 			);
 			path = Devote;
@@ -71,6 +79,54 @@
 				7DDCB23427247093002BCBCC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DDCB246272473B1002BCBCC /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				7DDCB24227247314002BCBCC /* sound-ding.mp3 */,
+				7DDCB24427247314002BCBCC /* sound-rise.mp3 */,
+				7DDCB24327247314002BCBCC /* sound-tap.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		7DDCB24727247413002BCBCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DDCB22F27247090002BCBCC /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DDCB24827247426002BCBCC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7DDCB2492724743A002BCBCC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7DDCB24A27247455002BCBCC /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		7DDCB24B27247470002BCBCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DDCB23627247093002BCBCC /* Persistence.swift */,
+				7DDCB23827247093002BCBCC /* Devote.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,9 +336,10 @@
 				DEVELOPMENT_TEAM = 72LYX5328F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -310,9 +367,10 @@
 				DEVELOPMENT_TEAM = 72LYX5328F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
