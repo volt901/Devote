@@ -13,6 +13,7 @@
 		7DDCB23527247093002BCBCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDCB23427247093002BCBCC /* Preview Assets.xcassets */; };
 		7DDCB23727247093002BCBCC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCB23627247093002BCBCC /* Persistence.swift */; };
 		7DDCB23A27247093002BCBCC /* Devote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCB23827247093002BCBCC /* Devote.xcdatamodeld */; };
+		7DDCB252272562BD002BCBCC /* Constant .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCB251272562BD002BCBCC /* Constant .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7DDCB24327247314002BCBCC /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		7DDCB24427247314002BCBCC /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 		7DDCB24C272474AF002BCBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7DDCB251272562BD002BCBCC /* Constant .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constant .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,12 @@
 		7DDCB22C27247090002BCBCC /* Devote */ = {
 			isa = PBXGroup;
 			children = (
+				7DDCB22D27247090002BCBCC /* DevoteApp.swift */,
 				7DDCB24C272474AF002BCBCC /* Info.plist */,
 				7DDCB24A27247455002BCBCC /* Style */,
 				7DDCB2492724743A002BCBCC /* Utility */,
 				7DDCB24827247426002BCBCC /* Extension */,
 				7DDCB246272473B1002BCBCC /* Sound */,
-				7DDCB22D27247090002BCBCC /* DevoteApp.swift */,
 				7DDCB24727247413002BCBCC /* View */,
 				7DDCB23127247093002BCBCC /* Assets.xcassets */,
 				7DDCB24B27247470002BCBCC /* Model */,
@@ -109,6 +111,7 @@
 		7DDCB2492724743A002BCBCC /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				7DDCB251272562BD002BCBCC /* Constant .swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				7DDCB23027247090002BCBCC /* ContentView.swift in Sources */,
 				7DDCB23A27247093002BCBCC /* Devote.xcdatamodeld in Sources */,
 				7DDCB22E27247090002BCBCC /* DevoteApp.swift in Sources */,
+				7DDCB252272562BD002BCBCC /* Constant .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
